@@ -1,6 +1,6 @@
 [
     {
-        "content": "Lorem ipsum dolor sit amet. Id voluptates dolores et amet voluptatem ut sunt blanditiis 33 laudantium quia rem eius enim. Ex ipsam harum rem dolor porro sed architecto nesciunt id quae voluptatem.",
+        "content": "Lorem ipsum dolor sit amet. Id voluptates dolores et amet voluptatem ut sunt blanditiis 33 laudantium quia rem eius enim. Ex ipsam harum rem dolor porro sed architecto nesciunt id quae voluptatem.\n\nexecuting this curl command: <code>tutaj odpowiednie polecenie: %%tenant%% %%password%%</code>",
         "selector": "a[href$='acker.io']",
         "nextOnClick": "a[href$='acker.io']"
     },
