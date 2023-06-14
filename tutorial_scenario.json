@@ -11,7 +11,7 @@
     },
     {
         "content": "The first node of every scenario defines the source of data the scenario is processing. Double-click it to see what is the source of data in our example.",
-        "selector": "[data-type='esp.Model'][id='j_11']",
+        "selector": "[data-type='esp.Model'][id='j_1']",
         "nextOnAppear": "[data-type='esp.Model'][model-id='user stream']"
     }
 ]
