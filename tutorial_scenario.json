@@ -16,7 +16,7 @@
     },
     {
         "content": "*http.example-input* is the input topic of this scenario. Communication with topics in Nu Cloud (sending and receiving events) is over HTTP. To send an input event, you can for example:\n \n- execute this curl command: <code>curl -H \"Content-Type: application/json\" -u publisher: %%password%% https://%%tenant%%-gateway.staging-cloud.nussknacker.io/topics/http.example-input -d '{ \"name\": \"Nutcracker\" }</code>\n\nor\n\n- use your browser to send an HTTP request by clicking <SendEvent url=\"https://%%tenant%%-gateway.staging-cloud.nussknacker.io/topics/http.example-input\" user=\"publisher\" password=\"%%password%%\" body='{ \"name\": \"Nutcracker\" }'>here</SendEvent>\n\nAfter you have sent the event go to the <Next>Next step</Next>",
-        "selector": "[data-testid='window']",
+        "selector": "div[class='css-b62m3t-container']",
         "nextOnClick": "a[href$='acker.io']"
     }
 ]
