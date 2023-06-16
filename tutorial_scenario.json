@@ -41,6 +41,6 @@
     {
         "content": "To receive results (output events) Nussknacker produces, you use Nu Cloud topic subscriptions. Nussknacker will send all the events in a chosen topic to an HTTP endpoint you provide.\n\nIf you have an endpoint Nussknacker can send HTTP POST requests to, click *Add subscription* to try it out.\n\nIf you don’t want to add a subscription now [Skip this step].",
         "selector": "[class~=css-3fwlpp]",
-        "nextOnAppear": "[aria-labelledby='mui-4']"
+        "nextOnAppear": "[class~='css-42eo1l']"
     }
 ]
