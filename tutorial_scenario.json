@@ -36,6 +36,11 @@
     {
         "content": "*example-output* topic is set to be the output of the example scenario in the last node of the scenario, which is called a sink.\n\nOpen the output topic, to see the result of processing of the event you’ve sent.",
         "selector": "ul > div[role='button']:nth-child(2) [class~='css-yb0lig']",
-        "nextOnAppear": "[id='mui-1']"
+        "nextOnAppear": "[class~='css-3fwlpp']"
+    },
+    {
+        "content": "To receive results (output events) Nussknacker produces, you use Nu Cloud topic subscriptions. Nussknacker will send all the events in a chosen topic to an HTTP endpoint you provide.\n\nIf you have an endpoint Nussknacker can send HTTP POST requests to, click *Add subscription* to try it out.\n\nIf you don’t want to add a subscription now [Skip this step].",
+        "selector": "[class~=css-3fwlpp]",
+        "nextOnAppear": "[aria-labelledby='mui-4']"
     }
 ]
