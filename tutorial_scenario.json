@@ -21,11 +21,11 @@
     {
         "content": "If Nussknacker received your event, it has already been processed by now. To see what happened, head over to the Topics list.",
         "selector": "a[href$='/topics']",
-        "nextOnAppear": "div[class='MuiListItemText-root.MuiListItemText-multiline.css-1xar93x']"
+        "nextOnAppear": "[class~='css-yb0lig']"
     },
     {
         "content": "Open the input topic first, the one you have just sent an event to.",
-        "selector": "div[class='MuiListItemText-root.MuiListItemText-multiline.css-1xar93x']",
+        "selector": "[class~='css-yb0lig']",
         "nextOnClick": "a[href$='/topics']"
     }
 ]
