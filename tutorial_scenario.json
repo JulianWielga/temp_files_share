@@ -2,12 +2,14 @@
     {
         "content": "This is your first Nussknacer instance. You can play with it to see what you can do with Nu Cloud.\n\nClick the link to open Nussknacker Designer.",
         "selector": "a[href$='acker.io']",
-        "nextOnClick": "a[href$='acker.io']"
+        "nextOnClick": "a[href$='acker.io']",
+        "url": "https://manage.staging-cloud.nussknacker.io/tenants"
     },
     {
         "content": "This is a list of your scenarios. We created an example scenario for you.\n\nOpen it to see what it does, how you can send some data to Nussknacker and how Nussknacker reacts.",
         "selector": "a[href$='visualization/example-scenario'] < li",
-        "nextOnAppear": "[data-type='esp.Model'][model-id='user stream']"
+        "nextOnAppear": "[data-type='esp.Model'][model-id='user stream']",
+        "url": "https://%%tenant%%-nussknacker.staging-cloud.nussknacker.io"
     },
     {
         "content": "The first node of every scenario defines the source of data the scenario is processing.\n\nDouble-click it to see what is the source of data in our example.",
